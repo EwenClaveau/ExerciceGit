@@ -1,0 +1,63 @@
+/* CSS basique */
+
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #222;
+  --primary-color: #3498db;
+  --card-color: #fff;
+  --border-color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+.card {
+  background: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
